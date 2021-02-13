@@ -5,6 +5,8 @@
     text-decoration: underline;
 }
 
+
+
 .rappel
 {
     font-family: 'Dancing Script', cursive;
@@ -13,20 +15,43 @@
     color: white;
 }
 
-
 h3
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: sandybrown;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
     padding: 10px;
 }
 
 p
 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 li
 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.col-4
+{
+    width: 33%;
+    height: 25em;
+    border: solid black;
+    font-size: small;
+    background-color: rgb(145, 146, 146);
+    margin: auto;
+}
+
+.bloc
+{
+    overflow: auto;
+}
+
+.bloc1
+{
+    text-align: justify;
+    margin: auto;
 }
