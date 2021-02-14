@@ -55,3 +55,9 @@ li
     text-align: justify;
     margin: auto;
 }
+
+th
+{
+    text-decoration: underline;
+    font-size: larger;
+}
