@@ -42,7 +42,8 @@ li
     border: solid black;
     font-size: small;
     background-color: rgb(145, 146, 146);
-    margin: 1px;
+    margin: auto;
+    margin-bottom: 3px;
 }
 
 .bloc
