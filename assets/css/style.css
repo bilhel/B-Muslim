@@ -37,7 +37,7 @@ li
 
 .col-4
 {
-    width: 33em;
+    width: 23rem;
     height: 25em;
     border: solid black;
     font-size: small;
@@ -61,4 +61,43 @@ th
 {
     text-decoration: underline;
     font-size: larger;
+}
+
+@media screen and (max-width: 768px) 
+{
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video1 {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video1 iframe,
+.video1 object,
+.video1 embed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 }
